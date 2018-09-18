@@ -10,8 +10,8 @@ import re
 import pandas as pd
 
 
-country = input("Enter your country: ")
-capital = None
+#country = input("Enter your country: ")
+#capital = None
 sample={}
 sample["India"] = "Delhi"
 sample["Pakistan"] = "Karachi"
@@ -20,4 +20,4 @@ sample["Pakistan"] = "Karachi"
 #    print ("The capital of "+country+" is "+sample[country])
 #
 #print (sample)
-print (country)
+print (sample)
