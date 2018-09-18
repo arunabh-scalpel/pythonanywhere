@@ -11,14 +11,14 @@ import pandas as pd
 
 
 country = input("Enter your country: ")
-country = str(country)
+
 #capital = None
 sample={}
-sample["India"] = "Delhi"
-sample["Pakistan"] = "Karachi"
+sample['India'] = 'Delhi'
+sample['Pakistan'] = 'Karachi'
 
 if country in sample:
-    print ("The capital of "+str(country)+" is "+str(sample[country]))
+    print ("The capital of "+country+" is "+sample[country])
 #
 #print (sample)
 print (sample)
