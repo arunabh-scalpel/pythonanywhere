@@ -7,6 +7,7 @@ Created on Wed Sep 19 00:21:12 2018
 """
 
 import re
+import pandas as pd
 sample={}
 sample["India"] = "Delhi"
 sample["Pakistan"] = "Karachi"
