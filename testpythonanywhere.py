@@ -10,14 +10,15 @@ import re
 import pandas as pd
 
 
-#country = input("Enter your country: ")
+country = input("Enter your country: ")
+print (country)
 #capital = None
 sample={}
 sample["India"] = "Delhi"
 sample["Pakistan"] = "Karachi"
 
-#if country in sample:
-#    print ("The capital of "+country+" is "+sample[country])
+if country in sample:
+    print ("The capital of "+country+" is "+sample[country])
 #
 #print (sample)
 print (sample)
